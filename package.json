@@ -1,0 +1,74 @@
+{
+  "name": "svelte-pages-template",
+  "version": "0.0.1",
+  "private": true,
+  "description": "SvelteKit + Svelte 5 + Tailwind CSS static template for GitHub Pages, deployed with GitHub Actions.",
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "svelte-5",
+    "tailwindcss",
+    "github-pages",
+    "static-site",
+    "vite",
+    "typescript",
+    "template"
+  ],
+  "homepage": "https://github.com/AlfredClark/svelte-pages-template#readme",
+  "bugs": {
+    "url": "https://github.com/AlfredClark/svelte-pages-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlfredClark/svelte-pages-template.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": {
+    "name": "AlfredClark",
+    "url": "https://github.com/AlfredClark"
+  },
+  "type": "module",
+  "imports": {
+    "#lib": "./src/lib/index.js",
+    "#lib/*": "./src/lib/*"
+  },
+  "scripts": {
+    "build": "vite build",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "dev": "vite dev",
+    "format": "prettier --write .",
+    "lint": "prettier --check . && eslint .",
+    "prepare": "svelte-kit sync || echo ''",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "svelte": "^5.57.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@sveltejs/adapter-static": "^4.0.0",
+    "@sveltejs/kit": "^3.0.1",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-svelte": "^3.23.1",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-packagejson": "^3.0.2",
+    "prettier-plugin-svelte": "^4.1.1",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "svelte-check": "^4.7.6",
+    "tailwindcss": "^4.3.3",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^8.3.4"
+  },
+  "packageManager": "pnpm@12.13.0",
+  "engines": {
+    "node": ">=22.17"
+  }
+}
