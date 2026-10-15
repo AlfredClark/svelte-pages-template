@@ -2,7 +2,7 @@
 
 [English](../README.md) | 简体中文
 
-[![Deploy to GitHub Pages](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/deploy.yml/badge.svg)](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/deploy.yml) [![Quality](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/quality.yml/badge.svg)](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/quality.yml)
+[![Deploy](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/deploy.yml/badge.svg)](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/deploy.yml) [![Quality](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/quality.yml/badge.svg)](https://github.com/AlfredClark/svelte-pages-template/actions/workflows/quality.yml)
 
 基于 Svelte 的 GitHub Pages 开发模板。SvelteKit + Svelte 5 + Tailwind CSS v4 静态模板，经 GitHub Actions 部署到 GitHub Pages。
 

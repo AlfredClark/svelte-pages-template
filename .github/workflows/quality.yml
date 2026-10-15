@@ -2,6 +2,10 @@ name: Quality
 
 on:
   push:
+    paths-ignore:
+      - '**/*.md'
+      - 'LICENSE'
+      - '.vscode/**'
 
 permissions:
   contents: read
